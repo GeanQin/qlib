@@ -3,7 +3,9 @@
  * 允许所有人使用，使用时请保留此内容.
  * ----------------------------------------
  * qfindc:	本函数用于从字符串中查找特定字符
+ * qsplits:	本函数用于从字符串指定首尾位置截取内容
  * ----------------------------------------
  */
 
 int qfindc(char *buf,char c,int from);
+void qsplits(char *ret,char *buf,int x,int y);
