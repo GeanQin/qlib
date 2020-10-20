@@ -1,5 +1,5 @@
 # qlib
-Library files I wrote by myself.
+Library files I wrote by myself.<br>
 *qlib.h中有注释如何使用*
 
 ## 字符串操作
