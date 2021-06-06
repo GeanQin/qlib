@@ -1,10 +1,9 @@
-#include "qlib.h"
-
+#include <qlib.h>
 #include <stdio.h>
 
 int main(int argc, char *argv[])
 {
-#if 0
+#if 1
     //字符串测试
     char strtest[] = "qwe1qinjian1qwe";
     printf("strtest: %s\n", strtest);
@@ -27,7 +26,7 @@ int main(int argc, char *argv[])
     }
 #endif
 
-#if 1
+#if 0
     //网络测试
     char ip[16];
     int ipret = qgetip(argv[1], ip, 16);
