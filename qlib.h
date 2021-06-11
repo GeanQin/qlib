@@ -11,9 +11,9 @@
 #include <unistd.h>
 
 typedef enum{
-	QLIB_ERR_NONE,
-	QLIB_ERR_ARRAY_IS_TOO_SHORT,
-	QlIB_ERR_CANNOT_QSPLITS
+	ERR_NONE,
+	ERR_ARRAY_INDEX_OUT_OF_RANGE,
+	ERR_INVALID_PARAMETER
 } QLIB_ERR_TYPE;
 
 /* 本函数用于从字符串中查找特定字符
