@@ -1,3 +1,6 @@
+#ifndef QLIB_H
+#define QLIB_H 1
+
 /* 作者: Gean
  * 地址: https://github.com/GeanQin/qlib
  * 日志:
@@ -57,3 +60,5 @@ int qgetip(char *ethname, char *ip, int iplen);
  *      = -1:		失败
  */
 int qgetmac(char *ethname, char *mac, int maclen);
+
+#endif
