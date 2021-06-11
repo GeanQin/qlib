@@ -12,8 +12,8 @@
 
 typedef enum{
 	QLIB_ERR_NONE,
-    QLIB_ERR_ARRAY_IS_TOO_SHORT,
-    QlIB_ERR_CANNOT_QSPLITS
+	QLIB_ERR_ARRAY_IS_TOO_SHORT,
+	QlIB_ERR_CANNOT_QSPLITS
 } QLIB_ERR_TYPE;
 
 /* 本函数用于从字符串中查找特定字符
@@ -21,20 +21,20 @@ typedef enum{
  * @param c:		需要查找的字符
  * @param from:		从字符串中第几个字符开始
  * @return
- * 	> 0:		    返回从第$from开始第一个$c的位置
- * 	<= 0:		    失败
+ * 	> 0:			返回从第$from开始第一个$c的位置
+ * 	<= 0:			失败
  */
 int qfindc(char *buf, char c, int from);
 
 /* 本函数用于从字符串指定首尾位置截取内容
- * @param ret:		    用于存放截取的结果
- * @param retlen:	    $ret的长度
- * @param buf:		    用于截取的字符串
- * @param x:		    起始位置
- * @param y:		    结束位置
+ * @param ret:			用于存放截取的结果
+ * @param retlen:		$ret的长度
+ * @param buf:			用于截取的字符串
+ * @param x:			起始位置
+ * @param y:			结束位置
  * @return
- * 	= QLIB_ERR_NONE:    成功
- * 	> QLIB_ERR_NONE:    失败
+ * 	= QLIB_ERR_NONE:	成功
+ * 	> QLIB_ERR_NONE:	失败
  */
 QLIB_ERR_TYPE qsplits(char *ret, int retlen, char *buf, int x, int y);
 
