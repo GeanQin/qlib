@@ -26,5 +26,5 @@ QLIB_ERR_TYPE qsplits(char *ret, int retlen, char *buf, int x, int y){
 		j = j + 1;
 	}
 	ret[j] = '\0';
-	return 0;
+	return ERR_NONE;
 }
